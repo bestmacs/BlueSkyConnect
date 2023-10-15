@@ -1,5 +1,4 @@
 # BlueSky
-**NOTE: SolarWinds has stopped responding to PR's regarding this project and bumped the active developers off the repo. I have moved the active development to sphen13/BlueSky** Visit the #bluesky channel of MacAdmins Slack for unofficial help.
 
 BlueSky establishes and maintains an SSH tunnel initiated by your client’s computer to a BlueSky server. The tunnel allows two connections to come back to the computer from the server: SSH and VNC. The SSH and VNC services on the computer are the ones provided by the Sharing.prefpane.
 
@@ -9,8 +8,9 @@ Apps are provided to connect you to remote Terminal (SSH), Screen Sharing (VNC),
 
 Since BlueSky from your client computers is an outgoing connection most SMB networks won’t block it. In enterprise environments, BlueSky can read the proxy configuration in system preferences and send the tunnel through a proxy server.
 
-Read more in the [Wiki](https://github.com/logicnow/BlueSky/wiki)
+Read more in the [Wiki](https://github.com/BlueSkyTools/BlueSkyConnect/wiki)
+Visit the #bluesky channel of MacAdmins Slack for help.
 
 ## Docker Information
 
-Information regarding running BlueSky with docker can be found [in this README](https://github.com/logicnow/BlueSky/blob/master/docker/README.md)
+Information regarding running BlueSky with docker can be found [in this README](https://github.com/BlueSkyTools/BlueSkyConnect/blob/master/docker/README.md)
